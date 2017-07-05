@@ -1,0 +1,67 @@
+
+	Selectores	
+*	Selecciona todos los elementos
+p	Selecciona todos los elementos p
+ul, li	Selecciona todos los li dentro de los ul
+h1, p	Selecciona todos los h1 y p
+
+	Color y Background	
+color: ‘red’;	Cambia el color de la fuente a rojo
+background: 'black";	Cambia el fondo a negro
+background-color: “blue”;	Cambia el fondo a azul
+
+	Fuentes de Texto	
+font-family: Arial, sans-serif;	Cambia la familia de la fuente del texto
+font-size: 12px;	Cambia tamaño de la fuente
+font-weight: bold;	Cambia la fuente a negrita
+
+	Colores: {color:red;} {color:#ffffff}
+
+Text transfor: 3 valores 
+	uppercase; texto a mayusclas
+	lowercase; texto en minusculas
+	cpitalize; primeras letras en mayusculas
+
+tamaño y estilo de las letras 
+	{font-size: 16px;}
+ 	border-top
+	border-rigth
+	border-botton
+	border-left
+
+Links va en el body
+<p> <a href="http://www.google.com">contiene un link</a> </p>
+Links relativos 
+solo añadir el nombre en del archivo en la etiqueta <a href=b/ archivo>
+ir al archivo</a>
+
+		<p>Este párrafo <a href="http://www.google.com" 
+title="Ir a Google">contiene un link</a> que me lleva a Google.</p>
+
+#ID
+<h1 id="principal">Atributo id</h1> solo usar letras y numeros
+
+<p .class="destacado">Un párrafo destacado. es lo mismo que ID pero se puede poner a mas de 1.
+02:29 a.m. 04/05/2017
+<div> separar parrafos
+<clear> par aque no choquen
+
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-bottom: 40px;
+  padding-left: 50px;
+
+Float para mover cosas 
+Nunca repetir codigos
+como escribir texto java scrit
+<script type="text/javascript">
+console log( aca va el texto)en el mismo html
+    </script>
+<script type="text/javascript" src="programacion.js"> para un archivo fuera del html
+
+
+
+
+
+
+

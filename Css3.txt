@@ -1,0 +1,20 @@
+-Medidas Absolutas, y relativas.
+body{
+	font-zise:16px;
+}
+h1 {
+	min-heigth: 275px;
+	width: 500px;
+	width: 50%;
+	margin-rigth:25%;
+	font-zise: 200%;
+}
+-position no usar mucho esto.
+{ position: relative;
+  position: statick;
+  position: absolute;
+  position: fixed;
+}
+
+z-index:2; para ver que elemento tapa a cual
+

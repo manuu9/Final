@@ -1,0 +1,81 @@
+﻿
+
+/*Código armado por La Foca Loca S.A. No modificar*/
+body {
+  font-family: sans-serif;
+  width: 940px;
+  margin: 5% auto;
+  min-height: 100%;
+  background-image: url(../Adventure_Time.jpg);
+}
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+li {
+  padding: 5px 0;
+}
+li::before {
+  content: "• ";
+ color: blue ;
+}
+
+.col-40, .col-60 {
+  display: table-cell;
+  margin: 0;
+  vertical-align: top;
+}
+.col-40 {
+  background: #FFF;
+  padding: 30px;
+  color: #000;
+  border-top: 2px solid black;
+}
+h1{
+  border-radius: 15px;
+  font-family: serif;
+  color: pink;
+  background-color: #38032c;
+  text-align: center;
+  padding: 8px;
+}
+h2{
+  font-family: serif;
+  color: #38032c;
+}
+#juego div {
+
+  text-align: center;
+  animation: fadein 2s;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 2; }
+}
+
+img{
+  height: 195px;
+  width: 195px;
+}
+
+.col-60 {
+  background-color: none;
+  border-top: 2px solid black;
+  width: 601px;
+  height:600px;
+}
+.ExZz{
+  float: left;
+  width:195px;
+  height:195px;
+}
+#echo{
+  background-color: black;
+  color:white;
+  padding-left: 40%;
+}
+#Original{
+  margin: 5%;
+  padding: 5%;
+}

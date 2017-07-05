@@ -1,0 +1,45 @@
+a, a:hover, a:active, a:visited {
+  text-decoration: none;
+  color: #0414ef;
+}
+
+a {
+  font-family: 'Playfair Display', serif;
+  background-color: white;
+  display: block;
+  padding: 5px 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  -webkit-transition: all 0.25s ease-in-out 0s;
+  transition: all 0.25s ease-in-out 0s;
+}
+#img1, #img2{
+  background-color: #7c7c7c;
+  display: block;
+}
+
+a:hover {
+  background-color: cyan;
+  color: black;
+}
+a:after {
+  content: "→";
+  position: absolute;
+  right: 20px;
+  opacity: 0;
+  -webkit-transition: all 0.25s ease-in-out 0s;
+  transition: all 0.25s ease-in-out 0s;
+  color: red;
+}
+a:hover:after {
+  content: "→";
+  position: absolute;
+  right: 10px;
+  opacity: 1;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}

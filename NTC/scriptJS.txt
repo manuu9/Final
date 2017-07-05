@@ -1,0 +1,135 @@
+-crear variables string=cadena de caracteres
+	var apellido = "Gómez";
+	alert(apellido);
+
+-Modificar variables
+	var apellido = "Gómez"; //Creación variable
+	apellido = "Pérez"; //Modificación variable
+	alert(apellido);
+
+-Flujo condicional 
+if(tieneObjetoEnfrente()) {
+   ubicarObjeto();
+   extenderBrazo();
+   tomarObjeto();
+}
+
+-Flujos literativos para ejecutar una accion multiples veces
+-para agregar condiciones y que estas ocurran si la condicion es verdadera o falsa
+
+var edad = 8;
+
+if(edad >= 18){
+  alert("Es mayor de edad");
+} else {
+  alert("Es menor de edad");
+}
+Comparaciones
+var edad = 8;
+//Igualdad
+if(edad == 18){
+  alert("Edad es igual a 18");
+}
+//Menor o igual
+if(edad <= 18){
+  alert("Edad es menor igual a 18");
+}
+//Menor
+if(edad < 18){
+  alert("Edad es menor a 18");
+}
+//Mayor
+if(edad > 18){
+  alert("Edad es mayor a 18");
+}
+//Mayor o igual
+if(edad >= 18){
+  alert("Edad es mayor o igual a 18");
+}
+
+-Operadores logicos ejecuta una accion si 2 o mas condiciones son verdaderas o falsas
+
+var edad = 8;
+var sexo = "m";
+
+if(edad >= 18 && sexo == "m"){
+  //Sólo se ejecuta si ambas condiciones son verdaderas
+  alert("El usuario es masculino y es mayor de edad");
+}
+var edad = 8;
+var sexo = "m";
+
+-Se ejecuta la accion solo si 1 de las acciones es verdadera
+
+if(edad >= 18 || sexo == "m"){
+  //Si una de las dos condiciones es verdadera se ejecuta el código
+  alert("El usuario es masculino, o es mayor de edad");
+}
+//Distinto
+if(edad != 18){
+  alert("Edad es distinto a 18");
+}
+
+-Para revirsar si la condicion no es falsa
+var edad = 8;
+var sexo = "m";
+
+if( !(edad >= 18) ){
+  //Si NO es verdadera la condición se ejecuta el código
+  alert("El usuario NO es mayor de edad");
+}	
+
+-Crear funciones en JS				-Ejemplo:
+function nombreDeLaFuncion(){				var usuario = "Pedro";							
+  // Aquí las acciones que 				function saludar(){
+  // realizará la función.				var saludo = "Hola " + usuario;
+}							  alert(saludo);
+										}
+-Ayuda Memoria
+https://docs.google.com/spreadsheets/d/1zOz6Uuix4wolSLvXHoEQPT-1qGPqoQj0-ZeEoyWqUCM/edit?usp=sharing
+
+-Estructura del for 
+for(var i=0; i<10 ; i++  ){
+  //Primer  parámetro: 
+  // Se ejecuta una única vez antes de las iteraciones.
+  //Segundo parámetro: 
+  // Una condición que se evalua, 
+  // si es verdadera se ejecuta el código.
+   //Tercer parámetro:
+   // Se ejecuta después de cada iteración.
+} 
+
+-Comentarios estos seran ignorados por el navegador y solo son para comentar en JS
+
+//-/* Este es un comentario
+multilínea, se abre y se cierra explícitamente */
+
+-Mesajes Privado para el navegador en el que estoy tabajando- Console. log("msg");
+
+-Como crear listas Array, pueden ser cualquier tipo de datos.
+
+var gustos_de_empanada = new Array("carne", "pollo", "verdura");
+var gustos_de_empanada = ["carne", "pollo", "verdura"];
+
+Como leer el valor del Array
+
+var sabores_de_empanada = ["carne", "pollo", "verdura", "cebolla"];
+var sabor_elegido = sabores_de_empanada[1];
+
+-Agregar un valor especifico al final del Array Siempre Funcion PoP elimina.
+
+var nombres = ["Ángel", "Beto", "Carlos", "Daniel", "Ernesto", "Fernando",];
+nombres.push("María");
+var ultimo_nombre = nombres.pop();
+
+-Length nos permite ver en valor del largo del Array
+
+var largo_del_array = sabores_de_empanada.length;
+
+-Iteracion por largo del Array
+
+var sabores_de_empanada = ["carne", "pollo", "verdura",]
+for(var i=0; i < sabores_de_empanada.length; i++){ 
+ console.log(i);
+  console.log(sabores_de_empanada[i]);
+}
